@@ -5,7 +5,9 @@
 
 
 <br>
-https://github.com/vistec-AI/thai2transformer
+Download:  https://github.com/vistec-AI/thai2transformer
+
+
 thai2transformers provides customized scripts to pretrain transformer-based masked language model on Thai texts with various types of tokens as follows:
 
 - __spm__: a subword-level token from [SentencePiece](https://github.com/google/sentencepiece) library.
