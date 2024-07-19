@@ -85,3 +85,6 @@ In this example, we demonstrate how to finetune WanchanBERTa, a RoBERTa base mod
       primaryClass={cs.CL}
 }
 ```
+# DataSet QA_TH
+
+Donwload :  https://archive.org/download/iapp_thaiqa/iapp_thaiqa.zip
