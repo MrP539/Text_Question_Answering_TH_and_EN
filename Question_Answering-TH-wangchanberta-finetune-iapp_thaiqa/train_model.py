@@ -280,7 +280,7 @@ csv_logger = CSVlogger(output_dir=output_dir)
 model = transformers.AutoModelForQuestionAnswering.from_pretrained(f'airesearch/{model_checkpoint}' if model_checkpoint not in public_models else f'{model_checkpoint}',revision='main')
     # การกำหนด revision='main' เป็นการระบุเวอร์ชันหรือการอ้างอิงที่ต้องการใช้งานจาก Git repository ที่เก็บโมเดลหรือโค้ดต่าง ๆ โดยทั่วไป main หมายถึง branch หลักใน Git
 
-
+    # ในตอนที่โมเดลได้รับ input_ids จะมีการทำ Embedding ภายในโมเดลโดยอัตโนมัติเมื่อเราทำการฝึกหรือประเมินผล:
 ###################################################################################################  finetune model  ############################################################################################################
 
 
