@@ -5,6 +5,8 @@
 
 
 <br>
+Download:  https://github.com/vistec-AI/thai2transformer
+
 
 thai2transformers provides customized scripts to pretrain transformer-based masked language model on Thai texts with various types of tokens as follows:
 
@@ -83,3 +85,6 @@ In this example, we demonstrate how to finetune WanchanBERTa, a RoBERTa base mod
       primaryClass={cs.CL}
 }
 ```
+# DataSet QA_TH
+
+Donwload :  https://archive.org/download/iapp_thaiqa/iapp_thaiqa.zip
